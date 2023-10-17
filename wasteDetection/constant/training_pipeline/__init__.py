@@ -19,3 +19,13 @@ DATA_VALIDATION_DIR_NAME: str = "data_validation"
 DATA_VALIDATION_STATUS_FILE = "status.txt"
 
 DATA_VALIDATION_ALL_REQUIRED_FILES = ["train", "valid", "data.yaml"]
+
+"""
+Model Trainer related constant start with MODEL_TRAINER VAR NAME
+"""
+MODEL_TRAINER_DIR_NAME: str = "model_trainer"
+
+MODEL_TRAINER_RETRAINED_WEIGHT_NAME: str = "yolov5s.pt"
+
+MODEL_TRAINER_NO_EPOCHS: int = 1
+MODEL_TRAINER_BATCH_SIZE: int = 16
